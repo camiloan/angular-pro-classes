@@ -101,8 +101,6 @@ export class CalculatorService {
 
   }
 
-
-
   public calculateResult() {
     const number1 = Number.parseFloat(this.subResultText())
     const number2 = Number.parseFloat(this.resultText())
